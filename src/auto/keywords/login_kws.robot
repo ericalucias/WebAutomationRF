@@ -2,8 +2,9 @@
 Resource  ../../config/package.resource
 
 ***Keywords***
-Quando realizar login com sucesso
+Quando inserir os dados de login
+    [Arguments]  ${email}  ${senha}
     Wait Until Element is Visible  ${LOGIN.input_email}
-    Input Text  ${LOGIN.input_email}  erica@gmail.com
-    Input Text  ${LOGIN.input_senha}  123456
-    Click Element  ${LOGIN.botao_login}
+    Input Text  ${LOGIN.input_email}  ${email}
+    Input Text  ${LOGIN.input_senha}  ${senha}
+    
