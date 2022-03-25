@@ -1,3 +1,3 @@
 ***Variables***
-&{HOME}
+&{home}
 ...  botao_login=//a[@class='login']

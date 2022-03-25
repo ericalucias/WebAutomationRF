@@ -1,4 +1,4 @@
 config:
   url:  http://automationpractice.com/index.php
-  navegador:  headlesschrome
+  navegador:  chrome
   timeout:  60

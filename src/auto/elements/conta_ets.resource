@@ -1,3 +1,3 @@
 ***Variables***
-&{CONTA}
+&{conta}
 ...  titulo=//h1[@class='page-heading']
