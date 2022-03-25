@@ -1,0 +1,5 @@
+massa_dados:
+  login:
+    email:  erica@gmail.com
+    email_invalido:  naoexiste@gmail.com
+    senha:  123456
