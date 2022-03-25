@@ -18,3 +18,7 @@ Resource  ../auto/elements/conta_ets.resource
 
 # Dados
 Variables  ../auto/data/dados.yaml
+Variables  ../auto/data/mensagens.yaml
+
+# Configurações
+Variables  setup.yaml 

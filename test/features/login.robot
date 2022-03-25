@@ -13,7 +13,7 @@ Cenário: Login com credenciais inválidas
     E acessar a tela de login
     Quando inserir os dados de login    ${massa_dados.login.email_invalido}    ${massa_dados.login.senha}
     E clicar no elemento    ${LOGIN.botao_login}
-    Entao deve visualizar a mensagem    ${LOGIN.texto_erro}    Authentication failed.
+    Entao deve visualizar a mensagem    ${LOGIN.texto_erro}    ${mensagens.login.authentication_failed}
 
 Cenário: Login com sucesso
     [Tags]  login  positivo
